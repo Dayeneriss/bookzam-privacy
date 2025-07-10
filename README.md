@@ -11,7 +11,7 @@ Ce dépôt contient la politique de confidentialité de l'application BookZam, u
 ## 🌐 Accès en ligne
 
 La politique de confidentialité est accessible publiquement à l'adresse :
-[https://VOTRE_USERNAME.github.io/bookzam-privacy/](https://VOTRE_USERNAME.github.io/bookzam-privacy/)
+[https://dayeneriss.github.io/bookzam-privacy/](https://dayeneriss.github.io/bookzam-privacy/)
 
 ## 📱 À propos de BookZam
 

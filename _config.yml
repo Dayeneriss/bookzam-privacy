@@ -11,7 +11,7 @@ plugins:
   - jekyll-seo-tag
 
 # Paramètres SEO
-url: "https://VOTRE_USERNAME.github.io"
+url: "https://dayeneriss.github.io"
 baseurl: "/bookzam-privacy"
 
 # Navigation
@@ -30,7 +30,7 @@ defaults:
 # Informations de contact
 email: contact@bookzam.app
 twitter_username: bookzam_app
-github_username: VOTRE_USERNAME
+github_username: Dayeneriss
 
 # Exclusions
 exclude:
