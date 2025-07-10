@@ -1,0 +1,53 @@
+title: "Politique de confidentialité - BookZam"
+description: "Politique de confidentialité de l'application BookZam - Découvrez comment nous protégeons et utilisons vos données personnelles"
+author: "Équipe BookZam"
+lang: fr
+
+# Configuration Jekyll
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Paramètres SEO
+url: "https://VOTRE_USERNAME.github.io"
+baseurl: "/bookzam-privacy"
+
+# Navigation
+header_pages:
+  - privacy.md
+
+# Configuration des métadonnées
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      lang: "fr"
+
+# Informations de contact
+email: contact@bookzam.app
+twitter_username: bookzam_app
+github_username: VOTRE_USERNAME
+
+# Exclusions
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Configuration Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

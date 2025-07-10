@@ -1,0 +1,38 @@
+# Fichiers de build et cache
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration locale
+.bundle/
+vendor/
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers de sauvegarde
+*~
+*.swp
+*.swo
+
+# Node modules (si utilisé)
+node_modules/
+
+# Environnement Ruby
+.ruby-version
+.rvmrc
+
+# Fichiers IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
