@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Politique de confidentialité - BookZam</title>
-    <meta name="description" content="Politique de confidentialité de l'application BookZam - Découvrez comment nous protégeons vos données">
+    <title>Política de Privacidad - BookZam</title>
+    <meta name="description" content="Política de privacidad de la aplicación BookZam - Descubre cómo protegemos tus datos">
     <style>
         * {
             margin: 0;
@@ -121,13 +121,6 @@
             text-decoration: underline;
         }
         
-        .last-updated {
-            text-align: center;
-            color: #7f8c8d;
-            font-style: italic;
-            margin-bottom: 30px;
-        }
-        
         .footer {
             text-align: center;
             margin-top: 40px;
@@ -160,41 +153,39 @@
 <body>
     <div class="container">
         <div class="language-selector">
-            <strong>Langue :</strong>
-            <a href="index.html" class="current">🇫🇷 Français</a>
+            <strong>Idioma:</strong>
+            <a href="index.html">🇫🇷 Français</a>
             <a href="en.html">🇺🇸 English</a>
-            <a href="es.html">🇪🇸 Español</a>
+            <a href="es.html" class="current">🇪🇸 Español</a>
             <a href="it.html">🇮🇹 Italiano</a>
         </div>
         
         <div id="content">
-            <!-- Le contenu Markdown sera chargé ici -->
+            <!-- Spanish content will be loaded here -->
         </div>
+        
         <div class="footer">
-            <p>© 2025 BookZam - Tous droits réservés</p>
+            <p>© 2025 BookZam - Todos los derechos reservados</p>
         </div>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-        // Configuration de marked pour un rendu optimisé
         marked.setOptions({
             breaks: true,
             gfm: true
         });
         
-        // Chargement et affichage du contenu Markdown
-        fetch('privacy.md')
+        fetch('privacy-es.md')
             .then(response => {
                 if (!response.ok) {
-                    throw new Error('Impossible de charger la politique de confidentialité');
+                    throw new Error('No se pudo cargar la política de privacidad');
                 }
                 return response.text();
             })
             .then(text => {
                 document.getElementById('content').innerHTML = marked.parse(text);
                 
-                // Ajout de classes CSS aux éléments générés
                 const contactLinks = document.querySelectorAll('a[href^="mailto:"]');
                 contactLinks.forEach(link => {
                     link.parentElement.classList.add('contact-info');
@@ -202,8 +193,8 @@
             })
             .catch(error => {
                 document.getElementById('content').innerHTML = 
-                    '<p style="color: red;">Erreur lors du chargement de la politique de confidentialité.</p>';
-                console.error('Erreur:', error);
+                    '<p style="color: red;">Error al cargar la política de privacidad.</p>';
+                console.error('Error:', error);
             });
     </script>
 </body>
