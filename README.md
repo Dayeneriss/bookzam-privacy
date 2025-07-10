@@ -4,14 +4,18 @@ Ce dépôt contient la politique de confidentialité de l'application BookZam, u
 
 ## 📋 Contenu
 
-- **privacy.md** : Politique de confidentialité complète
-- **index.html** : Page web stylisée pour GitHub Pages
+- **privacy.md** : Politique de confidentialité complète (français)
+- **privacy-en.md** : Privacy policy (English)
+- **index.html** : Page web stylisée pour GitHub Pages (français)
+- **en.html** : Styled web page for GitHub Pages (English)
 - **_config.yml** : Configuration Jekyll pour GitHub Pages
 
 ## 🌐 Accès en ligne
 
-La politique de confidentialité est accessible publiquement à l'adresse :
-[https://dayeneriss.github.io/bookzam-privacy/](https://dayeneriss.github.io/bookzam-privacy/)
+La politique de confidentialité est accessible publiquement :
+
+- **🇫🇷 Français** : [https://dayeneriss.github.io/bookzam-privacy/](https://dayeneriss.github.io/bookzam-privacy/)
+- **🇺🇸 English** : [https://dayeneriss.github.io/bookzam-privacy/en.html](https://dayeneriss.github.io/bookzam-privacy/en.html)
 
 ## 📱 À propos de BookZam
 
