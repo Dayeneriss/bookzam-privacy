@@ -23,7 +23,7 @@ BookZam rispetta la tua privacy. Questa informativa spiega quali dati vengono ra
 
 ## 4. Diritti dell'Utente
 
-- Puoi richiedere la cancellazione del tuo account e dei tuoi dati in qualsiasi momento (contatto: contact@bookzam.app)
+- Puoi richiedere la cancellazione del tuo account e dei tuoi dati in qualsiasi momento (contatto: contact@bookzam.io)
 - Puoi esportare i tuoi dati su richiesta
 
 ## 5. Servizi di Terze Parti
@@ -33,7 +33,7 @@ BookZam rispetta la tua privacy. Questa informativa spiega quali dati vengono ra
 
 ## 6. Contatto
 
-Per qualsiasi domanda o richiesta riguardante i tuoi dati, contattaci all'indirizzo contact@bookzam.app
+Per qualsiasi domanda o richiesta riguardante i tuoi dati, contattaci all'indirizzo contact@bookzam.io
 
 ---
 

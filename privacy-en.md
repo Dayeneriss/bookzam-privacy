@@ -19,7 +19,7 @@ BookZam respects your privacy. This policy explains what data is collected, how 
 - Books shared via social networks only contain information chosen by the user
 
 ## 4. User Rights
-- You can request deletion of your account and your data at any time (contact: contact@bookzam.app)
+- You can request deletion of your account and your data at any time (contact: contact@bookzam.io)
 - You can export your data upon request
 
 ## 5. Third-party Services
@@ -27,7 +27,7 @@ BookZam respects your privacy. This policy explains what data is collected, how 
 - Firebase (authentication, storage, crashes)
 
 ## 6. Contact
-For any questions or requests regarding your data, contact us at contact@bookzam.app
+For any questions or requests regarding your data, contact us at contact@bookzam.io
 
 ---
 

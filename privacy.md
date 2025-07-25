@@ -19,7 +19,7 @@ BookZam respecte votre vie privée. Cette politique explique quelles données so
 - Les livres partagés via réseaux sociaux ne contiennent que les informations choisies par l’utilisateur
 
 ## 4. Droits utilisateur
-- Vous pouvez demander la suppression de votre compte et de vos données à tout moment (contact : contact@bookzam.app)
+- Vous pouvez demander la suppression de votre compte et de vos données à tout moment (contact : contact@bookzam.io)
 - Vous pouvez exporter vos données sur demande
 
 ## 5. Services tiers
@@ -27,7 +27,7 @@ BookZam respecte votre vie privée. Cette politique explique quelles données so
 - Firebase (authentification, stockage, crashs)
 
 ## 6. Contact
-Pour toute question ou demande concernant vos données, contactez-nous à contact@bookzam.app
+Pour toute question ou demande concernant vos données, contactez-nous à contact@bookzam.io
 
 ---
 

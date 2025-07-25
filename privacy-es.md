@@ -23,7 +23,7 @@ BookZam respeta tu privacidad. Esta política explica qué datos se recopilan, c
 
 ## 4. Derechos del Usuario
 
-- Puedes solicitar la eliminación de tu cuenta y tus datos en cualquier momento (contacto: contact@bookzam.app)
+- Puedes solicitar la eliminación de tu cuenta y tus datos en cualquier momento (contacto: contact@bookzam.io)
 - Puedes exportar tus datos bajo solicitud
 
 ## 5. Servicios de Terceros
@@ -33,7 +33,7 @@ BookZam respeta tu privacidad. Esta política explica qué datos se recopilan, c
 
 ## 6. Contacto
 
-Para cualquier pregunta o solicitud sobre tus datos, contáctanos en contact@bookzam.app
+Para cualquier pregunta o solicitud sobre tus datos, contáctanos en contact@bookzam.io
 
 ---
 
