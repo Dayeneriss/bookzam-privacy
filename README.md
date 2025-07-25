@@ -36,7 +36,7 @@ BookZam est une application mobile qui permet de :
 
 Pour toute question concernant cette politique de confidentialité :
 
-- Email : [contact@bookzam.app](mailto:contact@bookzam.io)
+- Email : [contact@bookzam.io](mailto:contact@bookzam.io)
 
 ## 🔄 Mises à jour
 
