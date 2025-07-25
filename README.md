@@ -44,4 +44,4 @@ Cette politique peut être mise à jour périodiquement. La date de dernière mi
 
 ---
 
-**Dernière mise à jour :** 10 juillet 2025
+**Dernière mise à jour :** 25 juillet 2025
