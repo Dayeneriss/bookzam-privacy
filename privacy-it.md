@@ -1,6 +1,6 @@
 # Informativa sulla Privacy — BookZam
 
-Ultimo aggiornamento: 2 aprile 2026
+Ultimo aggiornamento: 3 aprile 2026
 
 BookZam rispetta la tua privacy. Questa informativa spiega quali dati vengono raccolti, come vengono utilizzati e quali sono i tuoi diritti.
 
@@ -15,6 +15,7 @@ BookZam rispetta la tua privacy. Questa informativa spiega quali dati vengono ra
 ### 1.2 Dati della biblioteca
 
 - Cronologia dei libri scansionati, cercati e aggiunti
+- Coordinate geografiche associate a ogni scansione (latitudine, longitudine, citta, paese), se hai autorizzato l'accesso alla posizione. Questi dati vengono memorizzati nel tuo profilo sui nostri server (Cloud Firestore) e servono ad alimentare la tua mappa delle scoperte.
 - Preferiti, note personali, stati di lettura
 - Progressi di lettura e obiettivi
 - Sfide di lettura e badge ottenuti
@@ -40,11 +41,16 @@ Quando utilizzi le funzionalita di intelligenza artificiale (ricerca per umore, 
 - Modello del dispositivo, versione del sistema operativo, versione dell'applicazione
 - Log di crash anonimi (tracce di errore, senza dati personali)
 - Eventi di utilizzo anonimizzati (schermate visitate, funzionalita utilizzate)
+- Proprieta utente anonimizzate trasmesse a Firebase Analytics: piattaforma (Android/iOS/Web), fonte di installazione (Google Play, App Store...), tipo di account (anonimo, gratuito, premium), anzianita di installazione, numero di sessioni, numero di libri, funzionalita scoperte, livello di coinvolgimento
+- Contatori di utilizzo locali (numero di scansioni, ricerche IA, quiz, ecc.) memorizzati sul dispositivo e sincronizzati periodicamente
 - Token di notifica push (FCM token)
 
 ### 1.7 Dati di localizzazione
 
-- Posizione geografica approssimativa (solo se lo autorizzi), utilizzata per reindirizzarti al negozio Amazon corretto del tuo paese. Questo dato non viene memorizzato sui nostri server.
+- Posizione geografica (solo se lo autorizzi), utilizzata per:
+  - **Mappa delle scoperte**: le coordinate GPS (latitudine, longitudine) e la localizzazione inversa (citta, paese) vengono salvate con ogni scansione di libro nel tuo profilo Firestore. Puoi eliminare questa cronologia in Impostazioni > Cancella cronologia.
+  - **Link di acquisto**: il tuo paese viene rilevato per reindirizzarti al negozio Amazon corrispondente. Il codice paese viene memorizzato nella cache locale del dispositivo (SharedPreferences), ma non viene inviato ai nostri server.
+- Puoi revocare l'accesso alla posizione in qualsiasi momento nelle impostazioni del telefono. L'applicazione continuera a funzionare normalmente senza questo permesso.
 
 ### 1.8 Dati multimediali
 
@@ -61,6 +67,7 @@ Quando utilizzi le funzionalita di intelligenza artificiale (ricerca per umore, 
 - Mostrare pubblicita rilevanti (solo per gli utenti gratuiti)
 - Migliorare l'applicazione (statistiche di utilizzo anonimizzate, correzione di bug)
 - Inviare notifiche di promemoria e progresso (disattivabili nelle impostazioni)
+- Offrire link di acquisto su Amazon tramite link di affiliazione (programma Amazon Associates, tag `bookzam0cf-21`). BookZam riceve una commissione sugli acquisti effettuati tramite questi link. Nessun dato personale viene trasmesso ad Amazon da BookZam; solo la tua posizione (paese) viene utilizzata localmente per indirizzarti al negozio Amazon corretto.
 - **Nessun dato viene venduto a terze parti**
 
 ## 3. Servizi di Terze Parti
@@ -120,11 +127,11 @@ In conformita con il GDPR e le leggi applicabili, puoi:
 
 - **Accedere** ai tuoi dati personali
 - **Rettificare** le tue informazioni
-- **Cancellare** il tuo account e tutti i tuoi dati
-- **Esportare** i tuoi dati su richiesta
+- **Cancellare** il tuo account e tutti i tuoi dati — disponibile direttamente nell'applicazione (Impostazioni > Account > Elimina il mio account)
+- **Esportare** i tuoi dati — disponibile direttamente nell'applicazione (Impostazioni > Account > Esporta i miei dati) in formato JSON
 - **Revocare il tuo consenso** per notifiche e localizzazione tramite le impostazioni dell'applicazione
 
-Per esercitare questi diritti, contattaci a **contact@bookzam.io**
+Per esercitare questi diritti, puoi utilizzare le funzionalita integrate nell'applicazione o contattarci a **contact@bookzam.io**
 
 ## 9. Conservazione dei Dati
 

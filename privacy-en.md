@@ -1,6 +1,6 @@
 # Privacy Policy — BookZam
 
-Last updated: April 2, 2026
+Last updated: April 3, 2026
 
 BookZam respects your privacy. This policy explains what data is collected, how it is used, and your rights.
 
@@ -13,6 +13,7 @@ BookZam respects your privacy. This policy explains what data is collected, how 
 
 ### 1.2 Library Data
 - History of scanned, searched, and added books
+- Geographic coordinates associated with each scan (latitude, longitude, city, country), if you have authorized location access. This data is stored in your profile on our servers (Cloud Firestore) and is used to power your discovery map.
 - Favorites, personal notes, reading statuses
 - Reading progress and goals
 - Reading challenges and badges earned
@@ -34,10 +35,15 @@ When you use artificial intelligence features (mood search, quote search, Book D
 - Device model, operating system version, app version
 - Anonymous crash logs (error traces, without personal data)
 - Anonymized usage events (screens visited, features used)
+- Anonymized user properties sent to Firebase Analytics: platform (Android/iOS/Web), install source (Google Play, App Store...), account type (anonymous, free, premium), days since install, session count, book count, features discovered, engagement level
+- Local usage counters (scan count, AI searches, quizzes, etc.) stored on your device and synced periodically
 - Push notification token (FCM token)
 
 ### 1.7 Location Data
-- Approximate geographic location (only if you authorize it), used to redirect you to the correct Amazon store for your country. This data is not stored on our servers.
+- Geographic location (only if you authorize it), used for:
+  - **Discovery map**: GPS coordinates (latitude, longitude) and reverse-geocoded location (city, country) are saved with each book scan in your Firestore profile. You can delete this history in Settings > Clear history.
+  - **Purchase links**: your country is detected to redirect you to the corresponding Amazon store. The country code is cached locally on your device (SharedPreferences) but is not sent to our servers.
+- You can revoke location access at any time in your phone settings. The app will continue to work normally without this permission.
 
 ### 1.8 Media Data
 - Camera access (to scan book covers and shelves)
@@ -53,6 +59,7 @@ When you use artificial intelligence features (mood search, quote search, Book D
 - Display relevant ads (for free users only)
 - Improve the application (anonymized usage statistics, bug fixes)
 - Send reminder and progress notifications (can be disabled in settings)
+- Provide purchase links to Amazon via affiliate links (Amazon Associates program, tag `bookzam0cf-21`). BookZam earns a commission on purchases made through these links. No personal data is transmitted to Amazon by BookZam; only your location (country) is used locally to direct you to the correct Amazon store.
 - **No data is sold to third parties**
 
 ## 3. Third-Party Services
@@ -111,11 +118,11 @@ When comparative testing (shadow testing) is enabled, your AI queries may also b
 In accordance with GDPR and applicable laws, you may:
 - **Access** your personal data
 - **Rectify** your information
-- **Delete** your account and all your data
-- **Export** your data upon request
+- **Delete** your account and all your data — available directly in the app (Settings > Account > Delete my account)
+- **Export** your data — available directly in the app (Settings > Account > Export my data) in JSON format
 - **Withdraw your consent** for notifications and location via the app settings
 
-To exercise these rights, contact us at **contact@bookzam.io**
+To exercise these rights, you can use the built-in features in the app or contact us at **contact@bookzam.io**
 
 ## 9. Data Retention
 
