@@ -25,12 +25,16 @@ La politique de confidentialité est accessible publiquement :
 
 ## 📱 À propos de BookZam
 
-BookZam est une application mobile qui permet de :
+BookZam est une application mobile (Android/iOS) et web de gestion de bibliothèque personnelle avec fonctionnalités IA :
 
-- Scanner des codes-barres de livres
-- Gérer sa bibliothèque personnelle
-- Ajouter des favoris et des notes
-- Partager ses découvertes littéraires
+- Scanner des couvertures et étagères de livres (OCR)
+- Recherche intelligente par description, humeur, citation (Gemini AI)
+- Bibliothèque personnelle avec favoris, notes, objectifs de lecture
+- Audiobooks gratuits (LibriVox)
+- ADN Littéraire, quiz, profil de lecture
+- Clubs de lecture et profil public social
+- Carte des découvertes (géolocalisation des scans)
+- Abonnement Premium (recherches IA illimitées, sans publicité)
 
 ## 📞 Contact
 
@@ -44,4 +48,4 @@ Cette politique peut être mise à jour périodiquement. La date de dernière mi
 
 ---
 
-**Dernière mise à jour :** 25 juillet 2025
+**Dernière mise à jour :** 3 avril 2026
